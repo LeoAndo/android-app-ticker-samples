@@ -1,7 +1,7 @@
 # Overview
 sample for ticker (Android)
 
-# Template1: Use [robinhood/ticker] Sample
+# Template1: Use [robinhood/ticker](https://github.com/robinhood/ticker) Sample
 - [Code](https://github.com/LeoAndo/android-app-ticker-samples/tree/main/TickerAppSample)
 - [Base](https://github.com/robinhood/ticker/tree/master/ticker-sample)
 - Features
