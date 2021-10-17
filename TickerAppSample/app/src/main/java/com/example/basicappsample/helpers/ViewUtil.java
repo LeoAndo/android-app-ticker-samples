@@ -1,6 +1,5 @@
 package com.example.basicappsample.helpers;
 
-import android.graphics.Typeface;
 import android.view.View;
 import android.view.ViewGroup;
 

@@ -13,7 +13,7 @@ import com.robinhood.ticker.TickerView;
 import java.util.List;
 
 public interface ITickerCustomFont {
-    default void setTypeFaceForTickerView(@NonNull final View vg, @Nullable Typeface typeface) {
+    default void setTypeFace(@NonNull final View vg, @Nullable Typeface typeface) {
         final List<View> viewTree = getViewTree(vg);
         viewTree.stream().filter(view -> view instanceof TickerView).forEach(view -> ((TickerView) view).setTypeface(typeface));
     }

@@ -33,7 +33,7 @@ public class MainActivity extends BaseActivity implements ITickerCustomFont {
         );
 
         // Typefaceの設定
-        setTypeFaceForTickerView(
+        setTypeFace(
                 binding.getRoot(),
                 ResourcesCompat.getFont(this, R.font.hachimaru)
         );

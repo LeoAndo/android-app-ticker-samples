@@ -23,7 +23,7 @@ class SlideActivity : AppCompatActivity(), ITickerCustomFont {
         })
 
         // Typefaceの設定
-        setTypeFaceForTickerView(
+        setTypeFace(
             binding.root,
             ResourcesCompat.getFont(this, R.font.hachimaru)
         )

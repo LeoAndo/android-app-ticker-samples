@@ -38,7 +38,7 @@ public class SlideActivity extends AppCompatActivity implements ITickerCustomFon
         });
 
         // Typefaceの設定
-        setTypeFaceForTickerView(
+        setTypeFace(
                 binding.getRoot(),
                 ResourcesCompat.getFont(this, R.font.hachimaru)
         );
